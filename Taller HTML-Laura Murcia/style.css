@@ -2,6 +2,15 @@ h1{
     color:brown;
     
 }
+h2{
+  color:firebrick;
+  font-size: medium;
+  
+}
+.icon{
+  padding: 1%;
+}
+
 .image-container {
     position: relative;
     overflow: hidden;
