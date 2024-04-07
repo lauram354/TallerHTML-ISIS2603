@@ -1,0 +1,42 @@
+h1{
+    color:brown;
+    
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+    
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; /* Color del texto */
+    display: flex; /* Texto centrado */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1; 
+  }
+
+  .formulario{
+    align-items: center;
+    justify-content: center;
+    right: 50%;
+    display: flex;
+  }
+  .label{
+    font-size: medium;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
+
+  
